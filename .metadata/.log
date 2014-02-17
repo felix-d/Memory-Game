@@ -1,0 +1,627 @@
+!SESSION 2014-01-28 06:38:40.657 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_17
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -application ca.umontreal.ift3913.jdt.mesures
+Command-line arguments:  -application ca.umontreal.ift3913.jdt.mesures -data /Users/felix/Documents/workspace/JeuMemory -dev file:/Users/felix/Documents/workspace/.metadata/.plugins/org.eclipse.pde.core/test/dev.properties -os macosx -ws cocoa -arch x86_64 -consoleLog
+
+!ENTRY org.eclipse.osgi 2 0 2014-01-28 06:38:44.853
+!MESSAGE One or more bundles are not resolved because the following root constraints are not resolved:
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:44.853
+!MESSAGE Bundle reference:file:/Applications/eclipse/plugins/org.eclipse.equinox.simpleconfigurator.manipulator_2.0.0.v20110808-1657.jar was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.simpleconfigurator.manipulator 2 0 2014-01-28 06:38:44.853
+!MESSAGE Missing imported package org.eclipse.equinox.internal.simpleconfigurator.utils_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.simpleconfigurator.manipulator 2 0 2014-01-28 06:38:44.853
+!MESSAGE Missing imported package org.eclipse.equinox.internal.simpleconfigurator_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.simpleconfigurator.manipulator 2 0 2014-01-28 06:38:44.853
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=CDC/Foundation)(version=1.1))(&(osgi.ee=JavaSE)(version=1.4)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:44.854
+!MESSAGE Bundle reference:file:/Applications/eclipse/plugins/org.eclipse.equinox.p2.director_2.2.0.v20120524-0542.jar was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 2 0 2014-01-28 06:38:44.854
+!MESSAGE Missing imported package org.eclipse.equinox.internal.provisional.configurator_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 2 0 2014-01-28 06:38:44.854
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=JavaSE)(version=1.5))(&(osgi.ee=JavaSE)(version=1.4))(&(osgi.ee=CDC/Foundation)(version=1.1)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:44.854
+!MESSAGE Bundle reference:file:/Applications/eclipse/plugins/org.eclipse.equinox.p2.ui.sdk_1.0.200.v20120515-1650.jar was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.p2.ui.sdk 2 0 2014-01-28 06:38:44.854
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=JavaSE)(version=1.5))(&(osgi.ee=JavaSE)(version=1.4))(&(osgi.ee=CDC/Foundation)(version=1.1)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:44.855
+!MESSAGE Bundle reference:file:/Applications/eclipse/plugins/org.eclipse.equinox.p2.director.app_1.0.300.v20120428-0517.jar was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.p2.director.app 2 0 2014-01-28 06:38:44.855
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=JavaSE)(version=1.5))(&(osgi.ee=JavaSE)(version=1.4))(&(osgi.ee=CDC/Foundation)(version=1.1)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:44.855
+!MESSAGE Bundle reference:file:/Applications/eclipse/plugins/org.eclipse.equinox.p2.reconciler.dropins_1.1.200.v20120301-2145.jar was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.p2.reconciler.dropins 2 0 2014-01-28 06:38:44.855
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=JavaSE)(version=1.5))(&(osgi.ee=JavaSE)(version=1.4))(&(osgi.ee=CDC/Foundation)(version=1.1)))".
+!SUBENTRY 2 org.eclipse.equinox.p2.reconciler.dropins 2 0 2014-01-28 06:38:44.855
+!MESSAGE Missing imported package org.eclipse.equinox.internal.provisional.configurator_0.0.0.
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:44.856
+!MESSAGE Bundle reference:file:/Applications/eclipse/plugins/org.eclipse.equinox.p2.extensionlocation_1.2.100.v20110808-1657.jar was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.p2.extensionlocation 2 0 2014-01-28 06:38:44.856
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=JavaSE)(version=1.5))(&(osgi.ee=JavaSE)(version=1.4))(&(osgi.ee=CDC/Foundation)(version=1.1)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:44.856
+!MESSAGE Bundle reference:file:/Applications/eclipse/plugins/org.eclipse.equinox.p2.ui.sdk.scheduler_1.1.0.v20110815-1744.jar was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.p2.ui.sdk.scheduler 2 0 2014-01-28 06:38:44.856
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=JavaSE)(version=1.5))(&(osgi.ee=JavaSE)(version=1.4))(&(osgi.ee=CDC/Foundation)(version=1.1)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:44.856
+!MESSAGE Bundle reference:file:/Applications/eclipse/plugins/org.eclipse.equinox.p2.console_1.0.300.v20120429-0125.jar was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.p2.console 2 0 2014-01-28 06:38:44.856
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=JavaSE)(version=1.5))(&(osgi.ee=JavaSE)(version=1.4))(&(osgi.ee=CDC/Foundation)(version=1.1)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:44.857
+!MESSAGE Bundle reference:file:/Applications/eclipse/plugins/org.eclipse.equinox.p2.repository.tools_2.0.100.v20120501-1314.jar was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.p2.repository.tools 2 0 2014-01-28 06:38:44.857
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=JavaSE)(version=1.5))(&(osgi.ee=JavaSE)(version=1.4))(&(osgi.ee=CDC/Foundation)(version=1.1)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:44.857
+!MESSAGE Bundle reference:file:/Applications/eclipse/plugins/org.eclipse.equinox.p2.updatesite_1.0.400.v20120412-1615.jar was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.p2.updatesite 2 0 2014-01-28 06:38:44.857
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=JavaSE)(version=1.5))(&(osgi.ee=JavaSE)(version=1.4))(&(osgi.ee=CDC/Foundation)(version=1.1)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:44.857
+!MESSAGE Bundle reference:file:/Applications/eclipse/plugins/org.eclipse.equinox.p2.directorywatcher_1.0.300.v20110808-1657.jar was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.p2.directorywatcher 2 0 2014-01-28 06:38:44.858
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=JavaSE)(version=1.5))(&(osgi.ee=JavaSE)(version=1.4))(&(osgi.ee=CDC/Foundation)(version=1.1)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:44.858
+!MESSAGE Bundle reference:file:/Applications/eclipse/plugins/org.eclipse.equinox.p2.updatechecker_1.1.200.v20110808-1657.jar was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.p2.updatechecker 2 0 2014-01-28 06:38:44.858
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=JavaSE)(version=1.5))(&(osgi.ee=JavaSE)(version=1.4))(&(osgi.ee=CDC/Foundation)(version=1.1)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:44.858
+!MESSAGE Bundle reference:file:/Applications/eclipse/plugins/org.eclipse.equinox.p2.ui_2.2.0.v20120524-0542.jar was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.p2.ui 2 0 2014-01-28 06:38:44.858
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=JavaSE)(version=1.5))(&(osgi.ee=JavaSE)(version=1.4))(&(osgi.ee=CDC/Foundation)(version=1.1)))".
+!SUBENTRY 2 org.eclipse.equinox.p2.ui 2 0 2014-01-28 06:38:44.859
+!MESSAGE Missing imported package org.eclipse.equinox.internal.provisional.configurator_0.0.0.
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:44.859
+!MESSAGE Bundle reference:file:/Applications/eclipse/plugins/org.eclipse.pde.ui_3.7.1.v20120824-102423.jar was not resolved.
+!SUBENTRY 2 org.eclipse.pde.ui 2 0 2014-01-28 06:38:44.859
+!MESSAGE Missing required bundle org.eclipse.equinox.simpleconfigurator_[1.0.200,2.0.0).
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:44.859
+!MESSAGE Bundle reference:file:/Applications/eclipse/plugins/org.eclipse.equinox.p2.ui.importexport_1.0.1.v20110818-1344.jar was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.p2.ui.importexport 2 0 2014-01-28 06:38:44.859
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=JavaSE)(version=1.5))(&(osgi.ee=JavaSE)(version=1.4))(&(osgi.ee=CDC/Foundation)(version=1.1)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:44.860
+!MESSAGE Bundle reference:file:/Applications/eclipse/plugins/org.eclipse.equinox.p2.operations_2.2.0.v20120524-0542.jar was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 0 2014-01-28 06:38:44.860
+!MESSAGE Missing imported package org.eclipse.equinox.internal.provisional.configurator_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 0 2014-01-28 06:38:44.860
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=JavaSE)(version=1.5))(&(osgi.ee=JavaSE)(version=1.4))(&(osgi.ee=CDC/Foundation)(version=1.1)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:44.860
+!MESSAGE Bundle reference:file:/Applications/eclipse/plugins/org.eclipse.equinox.p2.touchpoint.eclipse_2.1.100.v20120428-0117.jar was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.p2.touchpoint.eclipse 2 0 2014-01-28 06:38:44.860
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=JavaSE)(version=1.5))(&(osgi.ee=JavaSE)(version=1.4))(&(osgi.ee=CDC/Foundation)(version=1.1)))".
+
+!ENTRY org.eclipse.osgi 2 0 2014-01-28 06:38:45.177
+!MESSAGE The following is a complete list of bundles which are not resolved, see the prior log entry for the root cause if it exists:
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.177
+!MESSAGE Bundle org.eclipse.ant.ui_3.5.300.v20120523-1752 [59] was not resolved.
+!SUBENTRY 2 org.eclipse.ant.ui 2 0 2014-01-28 06:38:45.178
+!MESSAGE Missing required bundle org.eclipse.jdt.junit_[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.178
+!MESSAGE Bundle org.eclipse.datatools.connectivity.oda.template.ui_3.2.3.v201201121156 [100] was not resolved.
+!SUBENTRY 2 org.eclipse.datatools.connectivity.oda.template.ui 2 0 2014-01-28 06:38:45.178
+!MESSAGE Missing required bundle org.eclipse.pde.ui_[3.6.0,4.0.0).
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.178
+!MESSAGE Bundle org.eclipse.epp.mpc.ui_1.1.1.I20110907-0947 [270] was not resolved.
+!SUBENTRY 2 org.eclipse.epp.mpc.ui 2 0 2014-01-28 06:38:45.178
+!MESSAGE Missing required bundle org.eclipse.equinox.p2.ui.discovery_[1.0.0,1.1.0).
+!SUBENTRY 2 org.eclipse.epp.mpc.ui 2 0 2014-01-28 06:38:45.178
+!MESSAGE Missing required bundle org.eclipse.equinox.p2.ui_1.0.4.
+!SUBENTRY 2 org.eclipse.epp.mpc.ui 2 0 2014-01-28 06:38:45.179
+!MESSAGE Missing required bundle org.eclipse.equinox.p2.operations_0.0.0.
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.179
+!MESSAGE Bundle org.eclipse.equinox.p2.console_1.0.300.v20120429-0125 [289] was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.p2.console 2 0 2014-01-28 06:38:45.179
+!MESSAGE Missing imported package org.eclipse.equinox.internal.provisional.p2.director_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.console 2 0 2014-01-28 06:38:45.179
+!MESSAGE Missing imported package org.eclipse.equinox.p2.planner_[2.0.0,3.0.0).
+!SUBENTRY 2 org.eclipse.equinox.p2.console 2 0 2014-01-28 06:38:45.179
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=JavaSE)(version=1.5))(&(osgi.ee=JavaSE)(version=1.4))(&(osgi.ee=CDC/Foundation)(version=1.1)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.179
+!MESSAGE Bundle org.eclipse.equinox.p2.director_2.2.0.v20120524-0542 [291] was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 2 0 2014-01-28 06:38:45.180
+!MESSAGE Missing imported package org.eclipse.equinox.internal.provisional.configurator_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 2 0 2014-01-28 06:38:45.180
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=JavaSE)(version=1.5))(&(osgi.ee=JavaSE)(version=1.4))(&(osgi.ee=CDC/Foundation)(version=1.1)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.180
+!MESSAGE Bundle org.eclipse.equinox.p2.director.app_1.0.300.v20120428-0517 [292] was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.p2.director.app 2 0 2014-01-28 06:38:45.180
+!MESSAGE Missing imported package org.eclipse.equinox.internal.p2.director_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.director.app 2 0 2014-01-28 06:38:45.180
+!MESSAGE Missing imported package org.eclipse.equinox.internal.provisional.p2.director_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.director.app 2 0 2014-01-28 06:38:45.180
+!MESSAGE Missing imported package org.eclipse.equinox.p2.planner_[2.0.0,3.0.0).
+!SUBENTRY 2 org.eclipse.equinox.p2.director.app 2 0 2014-01-28 06:38:45.181
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=JavaSE)(version=1.5))(&(osgi.ee=JavaSE)(version=1.4))(&(osgi.ee=CDC/Foundation)(version=1.1)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.181
+!MESSAGE Bundle org.eclipse.equinox.p2.directorywatcher_1.0.300.v20110808-1657 [293] was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.p2.directorywatcher 2 0 2014-01-28 06:38:45.181
+!MESSAGE Missing imported package org.eclipse.equinox.internal.p2.update_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.directorywatcher 2 0 2014-01-28 06:38:45.181
+!MESSAGE Missing imported package org.eclipse.equinox.p2.publisher.eclipse_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.directorywatcher 2 0 2014-01-28 06:38:45.181
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=JavaSE)(version=1.5))(&(osgi.ee=JavaSE)(version=1.4))(&(osgi.ee=CDC/Foundation)(version=1.1)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.181
+!MESSAGE Bundle org.eclipse.equinox.p2.extensionlocation_1.2.100.v20110808-1657 [297] was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.p2.extensionlocation 2 0 2014-01-28 06:38:45.181
+!MESSAGE Missing imported package org.eclipse.equinox.internal.p2.publisher.eclipse_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.extensionlocation 2 0 2014-01-28 06:38:45.182
+!MESSAGE Missing imported package org.eclipse.equinox.internal.p2.touchpoint.eclipse_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.extensionlocation 2 0 2014-01-28 06:38:45.182
+!MESSAGE Missing imported package org.eclipse.equinox.internal.p2.update_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.extensionlocation 2 0 2014-01-28 06:38:45.182
+!MESSAGE Missing imported package org.eclipse.equinox.internal.provisional.p2.directorywatcher_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.extensionlocation 2 0 2014-01-28 06:38:45.182
+!MESSAGE Missing imported package org.eclipse.equinox.p2.publisher.eclipse_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.extensionlocation 2 0 2014-01-28 06:38:45.182
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=JavaSE)(version=1.5))(&(osgi.ee=JavaSE)(version=1.4))(&(osgi.ee=CDC/Foundation)(version=1.1)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.182
+!MESSAGE Bundle org.eclipse.equinox.p2.operations_2.2.0.v20120524-0542 [302] was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 0 2014-01-28 06:38:45.183
+!MESSAGE Missing imported package org.eclipse.equinox.internal.p2.director_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 0 2014-01-28 06:38:45.183
+!MESSAGE Missing imported package org.eclipse.equinox.internal.provisional.configurator_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 0 2014-01-28 06:38:45.183
+!MESSAGE Missing imported package org.eclipse.equinox.internal.provisional.p2.director_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 0 2014-01-28 06:38:45.183
+!MESSAGE Missing imported package org.eclipse.equinox.p2.planner_[2.0.0,3.0.0).
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 0 2014-01-28 06:38:45.183
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=JavaSE)(version=1.5))(&(osgi.ee=JavaSE)(version=1.4))(&(osgi.ee=CDC/Foundation)(version=1.1)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.183
+!MESSAGE Bundle org.eclipse.equinox.p2.publisher.eclipse_1.1.0.v20120511-1931 [304] was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.p2.publisher.eclipse 2 0 2014-01-28 06:38:45.184
+!MESSAGE Missing imported package org.eclipse.equinox.simpleconfigurator.manipulator_[2.0.0,3.0.0).
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.184
+!MESSAGE Bundle org.eclipse.equinox.p2.reconciler.dropins_1.1.200.v20120301-2145 [306] was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.p2.reconciler.dropins 2 0 2014-01-28 06:38:45.184
+!MESSAGE Missing required bundle org.eclipse.equinox.p2.touchpoint.eclipse_1.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.reconciler.dropins 2 0 2014-01-28 06:38:45.184
+!MESSAGE Missing imported package org.eclipse.equinox.internal.p2.director_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.reconciler.dropins 2 0 2014-01-28 06:38:45.184
+!MESSAGE Missing imported package org.eclipse.equinox.internal.p2.extensionlocation_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.reconciler.dropins 2 0 2014-01-28 06:38:45.184
+!MESSAGE Missing imported package org.eclipse.equinox.internal.p2.update_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.reconciler.dropins 2 0 2014-01-28 06:38:45.185
+!MESSAGE Missing imported package org.eclipse.equinox.internal.provisional.configurator_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.reconciler.dropins 2 0 2014-01-28 06:38:45.185
+!MESSAGE Missing imported package org.eclipse.equinox.internal.provisional.p2.directorywatcher_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.reconciler.dropins 2 0 2014-01-28 06:38:45.185
+!MESSAGE Missing imported package org.eclipse.equinox.p2.planner_[2.0.0,3.0.0).
+!SUBENTRY 2 org.eclipse.equinox.p2.reconciler.dropins 2 0 2014-01-28 06:38:45.185
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=JavaSE)(version=1.5))(&(osgi.ee=JavaSE)(version=1.4))(&(osgi.ee=CDC/Foundation)(version=1.1)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.185
+!MESSAGE Bundle org.eclipse.equinox.p2.repository.tools_2.0.100.v20120501-1314 [308] was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.p2.repository.tools 2 0 2014-01-28 06:38:45.186
+!MESSAGE Missing imported package org.eclipse.equinox.internal.p2.director_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.repository.tools 2 0 2014-01-28 06:38:45.186
+!MESSAGE Missing imported package org.eclipse.equinox.internal.p2.publisher.eclipse_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.repository.tools 2 0 2014-01-28 06:38:45.186
+!MESSAGE Missing imported package org.eclipse.equinox.internal.provisional.p2.director_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.repository.tools 2 0 2014-01-28 06:38:45.186
+!MESSAGE Missing imported package org.eclipse.equinox.p2.planner_[2.0.0,3.0.0).
+!SUBENTRY 2 org.eclipse.equinox.p2.repository.tools 2 0 2014-01-28 06:38:45.186
+!MESSAGE Missing imported package org.eclipse.equinox.p2.publisher.eclipse_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.repository.tools 2 0 2014-01-28 06:38:45.186
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=JavaSE)(version=1.5))(&(osgi.ee=JavaSE)(version=1.4))(&(osgi.ee=CDC/Foundation)(version=1.1)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.187
+!MESSAGE Bundle org.eclipse.equinox.p2.touchpoint.eclipse_2.1.100.v20120428-0117 [309] was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.p2.touchpoint.eclipse 2 0 2014-01-28 06:38:45.187
+!MESSAGE Missing imported package org.eclipse.equinox.internal.simpleconfigurator.manipulator_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.touchpoint.eclipse 2 0 2014-01-28 06:38:45.187
+!MESSAGE Missing imported package org.eclipse.equinox.p2.planner_[2.0.0,3.0.0).
+!SUBENTRY 2 org.eclipse.equinox.p2.touchpoint.eclipse 2 0 2014-01-28 06:38:45.187
+!MESSAGE Missing optionally imported package org.eclipse.equinox.p2.publisher.eclipse_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.touchpoint.eclipse 2 0 2014-01-28 06:38:45.187
+!MESSAGE Missing imported package org.eclipse.equinox.simpleconfigurator.manipulator_[2.0.0,3.0.0).
+!SUBENTRY 2 org.eclipse.equinox.p2.touchpoint.eclipse 2 0 2014-01-28 06:38:45.188
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=JavaSE)(version=1.5))(&(osgi.ee=JavaSE)(version=1.4))(&(osgi.ee=CDC/Foundation)(version=1.1)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.188
+!MESSAGE Bundle org.eclipse.equinox.p2.ui_2.2.0.v20120524-0542 [312] was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.p2.ui 2 0 2014-01-28 06:38:45.188
+!MESSAGE Missing imported package org.eclipse.equinox.internal.p2.director_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.ui 2 0 2014-01-28 06:38:45.188
+!MESSAGE Missing imported package org.eclipse.equinox.internal.provisional.configurator_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.ui 2 0 2014-01-28 06:38:45.189
+!MESSAGE Missing imported package org.eclipse.equinox.p2.operations_[2.0.0,3.0.0).
+!SUBENTRY 2 org.eclipse.equinox.p2.ui 2 0 2014-01-28 06:38:45.189
+!MESSAGE Missing imported package org.eclipse.equinox.p2.planner_[2.0.0,3.0.0).
+!SUBENTRY 2 org.eclipse.equinox.p2.ui 2 0 2014-01-28 06:38:45.189
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=JavaSE)(version=1.5))(&(osgi.ee=JavaSE)(version=1.4))(&(osgi.ee=CDC/Foundation)(version=1.1)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.189
+!MESSAGE Bundle org.eclipse.equinox.p2.ui.discovery_1.0.0.v20110808-1657 [313] was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.p2.ui.discovery 2 0 2014-01-28 06:38:45.189
+!MESSAGE Missing required bundle org.eclipse.equinox.p2.ui_2.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.ui.discovery 2 0 2014-01-28 06:38:45.190
+!MESSAGE Missing required bundle org.eclipse.equinox.p2.operations_[2.0.0,3.0.0).
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.190
+!MESSAGE Bundle org.eclipse.equinox.p2.ui.importexport_1.0.1.v20110818-1344 [314] was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.p2.ui.importexport 2 0 2014-01-28 06:38:45.190
+!MESSAGE Missing required bundle org.eclipse.equinox.p2.ui_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.ui.importexport 2 0 2014-01-28 06:38:45.190
+!MESSAGE Missing required bundle org.eclipse.equinox.p2.extensionlocation_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.ui.importexport 2 0 2014-01-28 06:38:45.190
+!MESSAGE Missing imported package org.eclipse.equinox.internal.p2.ui_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.ui.importexport 2 0 2014-01-28 06:38:45.190
+!MESSAGE Missing imported package org.eclipse.equinox.internal.p2.ui.dialogs_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.ui.importexport 2 0 2014-01-28 06:38:45.191
+!MESSAGE Missing imported package org.eclipse.equinox.internal.p2.ui.model_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.ui.importexport 2 0 2014-01-28 06:38:45.191
+!MESSAGE Missing imported package org.eclipse.equinox.internal.p2.ui.viewers_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.ui.importexport 2 0 2014-01-28 06:38:45.191
+!MESSAGE Missing imported package org.eclipse.equinox.internal.provisional.p2.director_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.ui.importexport 2 0 2014-01-28 06:38:45.191
+!MESSAGE Missing imported package org.eclipse.equinox.p2.operations_2.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.ui.importexport 2 0 2014-01-28 06:38:45.191
+!MESSAGE Missing imported package org.eclipse.equinox.p2.planner_2.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.ui.importexport 2 0 2014-01-28 06:38:45.191
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=JavaSE)(version=1.5))(&(osgi.ee=JavaSE)(version=1.4))(&(osgi.ee=CDC/Foundation)(version=1.1)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.192
+!MESSAGE Bundle org.eclipse.equinox.p2.ui.sdk_1.0.200.v20120515-1650 [315] was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.p2.ui.sdk 2 0 2014-01-28 06:38:45.192
+!MESSAGE Missing required bundle org.eclipse.equinox.p2.ui_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.ui.sdk 2 0 2014-01-28 06:38:45.192
+!MESSAGE Missing imported package org.eclipse.equinox.p2.operations_[2.0.0,3.0.0).
+!SUBENTRY 2 org.eclipse.equinox.p2.ui.sdk 2 0 2014-01-28 06:38:45.192
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=JavaSE)(version=1.5))(&(osgi.ee=JavaSE)(version=1.4))(&(osgi.ee=CDC/Foundation)(version=1.1)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.192
+!MESSAGE Bundle org.eclipse.equinox.p2.ui.sdk.scheduler_1.1.0.v20110815-1744 [316] was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.p2.ui.sdk.scheduler 2 0 2014-01-28 06:38:45.192
+!MESSAGE Missing required bundle org.eclipse.equinox.p2.updatechecker_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.ui.sdk.scheduler 2 0 2014-01-28 06:38:45.193
+!MESSAGE Missing required bundle org.eclipse.equinox.p2.ui_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.ui.sdk.scheduler 2 0 2014-01-28 06:38:45.193
+!MESSAGE Missing imported package org.eclipse.equinox.internal.p2.ui.actions_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.ui.sdk.scheduler 2 0 2014-01-28 06:38:45.193
+!MESSAGE Missing imported package org.eclipse.equinox.internal.p2.ui.query_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.ui.sdk.scheduler 2 0 2014-01-28 06:38:45.193
+!MESSAGE Missing imported package org.eclipse.equinox.internal.provisional.p2.updatechecker_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.ui.sdk.scheduler 2 0 2014-01-28 06:38:45.193
+!MESSAGE Missing imported package org.eclipse.equinox.p2.operations_[2.0.0,3.0.0).
+!SUBENTRY 2 org.eclipse.equinox.p2.ui.sdk.scheduler 2 0 2014-01-28 06:38:45.193
+!MESSAGE Missing imported package org.eclipse.equinox.p2.ui_[2.0.0,3.0.0).
+!SUBENTRY 2 org.eclipse.equinox.p2.ui.sdk.scheduler 2 0 2014-01-28 06:38:45.194
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=JavaSE)(version=1.5))(&(osgi.ee=JavaSE)(version=1.4))(&(osgi.ee=CDC/Foundation)(version=1.1)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.194
+!MESSAGE Bundle org.eclipse.equinox.p2.updatechecker_1.1.200.v20110808-1657 [317] was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.p2.updatechecker 2 0 2014-01-28 06:38:45.194
+!MESSAGE Missing imported package org.eclipse.equinox.p2.planner_[2.0.0,3.0.0).
+!SUBENTRY 2 org.eclipse.equinox.p2.updatechecker 2 0 2014-01-28 06:38:45.194
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=JavaSE)(version=1.5))(&(osgi.ee=JavaSE)(version=1.4))(&(osgi.ee=CDC/Foundation)(version=1.1)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.194
+!MESSAGE Bundle org.eclipse.equinox.p2.updatesite_1.0.400.v20120412-1615 [318] was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.p2.updatesite 2 0 2014-01-28 06:38:45.195
+!MESSAGE Missing imported package org.eclipse.equinox.internal.p2.publisher.eclipse_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.updatesite 2 0 2014-01-28 06:38:45.195
+!MESSAGE Missing imported package org.eclipse.equinox.p2.publisher.eclipse_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.updatesite 2 0 2014-01-28 06:38:45.195
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=JavaSE)(version=1.5))(&(osgi.ee=JavaSE)(version=1.4))(&(osgi.ee=CDC/Foundation)(version=1.1)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.195
+!MESSAGE Bundle org.eclipse.equinox.simpleconfigurator.manipulator_2.0.0.v20110808-1657 [324] was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.simpleconfigurator.manipulator 2 0 2014-01-28 06:38:45.195
+!MESSAGE Missing imported package org.eclipse.equinox.internal.simpleconfigurator_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.simpleconfigurator.manipulator 2 0 2014-01-28 06:38:45.195
+!MESSAGE Missing imported package org.eclipse.equinox.internal.simpleconfigurator.utils_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.simpleconfigurator.manipulator 2 0 2014-01-28 06:38:45.196
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=CDC/Foundation)(version=1.1))(&(osgi.ee=JavaSE)(version=1.4)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.196
+!MESSAGE Bundle org.eclipse.jdt.junit_3.7.100.v20120523-1543 [343] was not resolved.
+!SUBENTRY 2 org.eclipse.jdt.junit 2 0 2014-01-28 06:38:45.196
+!MESSAGE Missing required bundle org.eclipse.jdt.junit.core_[3.6.0,4.0.0).
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.196
+!MESSAGE Bundle org.eclipse.jdt.junit.core_3.7.100.v20120523-1257 [344] was not resolved.
+!SUBENTRY 2 org.eclipse.jdt.junit.core 2 0 2014-01-28 06:38:45.196
+!MESSAGE Missing required bundle org.eclipse.equinox.simpleconfigurator.manipulator_[2.0.0,3.0.0).
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.196
+!MESSAGE Bundle org.eclipse.jpt.jaxb.eclipselink.ui_1.3.1.v201208222210 [384] was not resolved.
+!SUBENTRY 2 org.eclipse.jpt.jaxb.eclipselink.ui 2 0 2014-01-28 06:38:45.197
+!MESSAGE Missing required bundle org.eclipse.jpt.jaxb.ui_[1.1.0,2.0.0).
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.197
+!MESSAGE Bundle org.eclipse.jpt.jaxb.ui_1.3.1.v201208222210 [385] was not resolved.
+!SUBENTRY 2 org.eclipse.jpt.jaxb.ui 2 0 2014-01-28 06:38:45.197
+!MESSAGE Missing required bundle org.eclipse.wst.web.ui_[1.1.400,2.0.0).
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.197
+!MESSAGE Bundle org.eclipse.jpt.jpa.eclipselink.ui_2.2.1.v201208222210 [393] was not resolved.
+!SUBENTRY 2 org.eclipse.jpt.jpa.eclipselink.ui 2 0 2014-01-28 06:38:45.198
+!MESSAGE Missing required bundle org.eclipse.jpt.jpa.ui_[3.0.0,4.0.0).
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.198
+!MESSAGE Bundle org.eclipse.jpt.jpa.ui_3.2.1.v201208222210 [395] was not resolved.
+!SUBENTRY 2 org.eclipse.jpt.jpa.ui 2 0 2014-01-28 06:38:45.198
+!MESSAGE Missing required bundle org.eclipse.jst.j2ee.ui_[1.1.200,2.0.0).
+!SUBENTRY 2 org.eclipse.jpt.jpa.ui 2 0 2014-01-28 06:38:45.198
+!MESSAGE Missing required bundle org.eclipse.wst.web.ui_[1.1.200,2.0.0).
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.199
+!MESSAGE Bundle org.eclipse.jst.ejb.ui_1.1.700.v201201190500 [407] was not resolved.
+!SUBENTRY 2 org.eclipse.jst.ejb.ui 2 0 2014-01-28 06:38:45.199
+!MESSAGE Missing required bundle org.eclipse.jst.j2ee.ui_[1.1.0,1.2.0).
+!SUBENTRY 2 org.eclipse.jst.ejb.ui 2 0 2014-01-28 06:38:45.199
+!MESSAGE Missing required bundle org.eclipse.wst.web.ui_[1.1.0,1.2.0).
+!SUBENTRY 2 org.eclipse.jst.ejb.ui 2 0 2014-01-28 06:38:45.199
+!MESSAGE Missing required bundle org.eclipse.jst.jee.ui_[1.0.100,2.0.0).
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.199
+!MESSAGE Bundle org.eclipse.jst.j2ee.ejb.annotations.ui_1.1.200.v201004290730 [415] was not resolved.
+!SUBENTRY 2 org.eclipse.jst.j2ee.ejb.annotations.ui 2 0 2014-01-28 06:38:45.200
+!MESSAGE Missing required bundle org.eclipse.jst.j2ee.ui_[1.1.0,1.2.0).
+!SUBENTRY 2 org.eclipse.jst.j2ee.ejb.annotations.ui 2 0 2014-01-28 06:38:45.200
+!MESSAGE Missing required bundle org.eclipse.jst.ejb.ui_[1.1.0,1.2.0).
+!SUBENTRY 2 org.eclipse.jst.j2ee.ejb.annotations.ui 2 0 2014-01-28 06:38:45.200
+!MESSAGE Missing required bundle org.eclipse.wst.web.ui_[1.1.0,1.2.0).
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.200
+!MESSAGE Bundle org.eclipse.jst.j2ee.ejb.annotations.xdoclet_1.2.200.v201103302125 [416] was not resolved.
+!SUBENTRY 2 org.eclipse.jst.j2ee.ejb.annotations.xdoclet 2 0 2014-01-28 06:38:45.200
+!MESSAGE Missing required bundle org.eclipse.ant.ui_[3.2.0,4.0.0).
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.201
+!MESSAGE Bundle org.eclipse.jst.j2ee.jca.ui_1.1.400.v201004150700 [419] was not resolved.
+!SUBENTRY 2 org.eclipse.jst.j2ee.jca.ui 2 0 2014-01-28 06:38:45.201
+!MESSAGE Missing required bundle org.eclipse.jst.j2ee.ui_[1.1.0,1.2.0).
+!SUBENTRY 2 org.eclipse.jst.j2ee.jca.ui 2 0 2014-01-28 06:38:45.201
+!MESSAGE Missing required bundle org.eclipse.wst.web.ui_[1.1.0,1.2.0).
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.201
+!MESSAGE Bundle org.eclipse.jst.j2ee.navigator.ui_1.1.600.v201203142300 [420] was not resolved.
+!SUBENTRY 2 org.eclipse.jst.j2ee.navigator.ui 2 0 2014-01-28 06:38:45.201
+!MESSAGE Missing required bundle org.eclipse.jst.j2ee.ui_[1.1.0,1.2.0).
+!SUBENTRY 2 org.eclipse.jst.j2ee.navigator.ui 2 0 2014-01-28 06:38:45.202
+!MESSAGE Missing required bundle org.eclipse.jst.j2ee.jca.ui_[1.1.0,1.2.0).
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.202
+!MESSAGE Bundle org.eclipse.jst.j2ee.ui_1.1.600.v201205170400 [421] was not resolved.
+!SUBENTRY 2 org.eclipse.jst.j2ee.ui 2 0 2014-01-28 06:38:45.202
+!MESSAGE Missing required bundle org.eclipse.wst.server.ui_[1.0.102,2.0.0).
+!SUBENTRY 2 org.eclipse.jst.j2ee.ui 2 0 2014-01-28 06:38:45.202
+!MESSAGE Missing required bundle org.eclipse.wst.web.ui_[1.1.0,1.2.0).
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.202
+!MESSAGE Bundle org.eclipse.jst.j2ee.webservice.ui_1.1.500.v201105122000 [424] was not resolved.
+!SUBENTRY 2 org.eclipse.jst.j2ee.webservice.ui 2 0 2014-01-28 06:38:45.203
+!MESSAGE Missing required bundle org.eclipse.jst.j2ee.ui_[1.1.0,1.2.0).
+!SUBENTRY 2 org.eclipse.jst.j2ee.webservice.ui 2 0 2014-01-28 06:38:45.203
+!MESSAGE Missing required bundle org.eclipse.jst.j2ee.navigator.ui_[1.1.0,1.2.0).
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.203
+!MESSAGE Bundle org.eclipse.jst.j2ee.xdoclet.runtime_1.1.300.v201004280700 [425] was not resolved.
+!SUBENTRY 2 org.eclipse.jst.j2ee.xdoclet.runtime 2 0 2014-01-28 06:38:45.203
+!MESSAGE Missing required bundle org.eclipse.jst.j2ee.ejb.annotations.xdoclet_[1.1.0,2.0.0).
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.203
+!MESSAGE Bundle org.eclipse.jst.jee.ui_1.0.500.v201205170400 [428] was not resolved.
+!SUBENTRY 2 org.eclipse.jst.jee.ui 2 0 2014-01-28 06:38:45.203
+!MESSAGE Missing required bundle org.eclipse.jst.j2ee.ui_[1.1.0,1.2.0).
+!SUBENTRY 2 org.eclipse.jst.jee.ui 2 0 2014-01-28 06:38:45.203
+!MESSAGE Missing required bundle org.eclipse.wst.web.ui_[1.1.0,1.2.0).
+!SUBENTRY 2 org.eclipse.jst.jee.ui 2 0 2014-01-28 06:38:45.204
+!MESSAGE Missing required bundle org.eclipse.jst.j2ee.navigator.ui_[1.1.0,2.0.0).
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.204
+!MESSAGE Bundle org.eclipse.jst.server.generic.jboss_1.6.1.v200904151730 [450] was not resolved.
+!SUBENTRY 2 org.eclipse.jst.server.generic.jboss 2 0 2014-01-28 06:38:45.204
+!MESSAGE Missing required bundle org.eclipse.jst.server.generic.ui_[1.0.102,2.0.0).
+!SUBENTRY 2 org.eclipse.jst.server.generic.jboss 2 0 2014-01-28 06:38:45.204
+!MESSAGE Missing required bundle org.eclipse.jst.server.ui_[1.0.102,2.0.0).
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.204
+!MESSAGE Bundle org.eclipse.jst.server.generic.jonas_1.5.205.v200805140145 [451] was not resolved.
+!SUBENTRY 2 org.eclipse.jst.server.generic.jonas 2 0 2014-01-28 06:38:45.204
+!MESSAGE Missing required bundle org.eclipse.jst.server.generic.ui_[1.0.102,2.0.0).
+!SUBENTRY 2 org.eclipse.jst.server.generic.jonas 2 0 2014-01-28 06:38:45.205
+!MESSAGE Missing required bundle org.eclipse.jst.server.ui_[1.0.102,2.0.0).
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.205
+!MESSAGE Bundle org.eclipse.jst.server.generic.oc4j_1.5.206.v20090812 [452] was not resolved.
+!SUBENTRY 2 org.eclipse.jst.server.generic.oc4j 2 0 2014-01-28 06:38:45.205
+!MESSAGE Missing required bundle org.eclipse.jst.server.generic.ui_[1.0.102,2.0.0).
+!SUBENTRY 2 org.eclipse.jst.server.generic.oc4j 2 0 2014-01-28 06:38:45.205
+!MESSAGE Missing required bundle org.eclipse.jst.server.ui_[1.0.102,2.0.0).
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.205
+!MESSAGE Bundle org.eclipse.jst.server.generic.ui_1.0.505.v20100428 [453] was not resolved.
+!SUBENTRY 2 org.eclipse.jst.server.generic.ui 2 0 2014-01-28 06:38:45.205
+!MESSAGE Missing required bundle org.eclipse.wst.server.ui_[1.0.102,2.0.0).
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.205
+!MESSAGE Bundle org.eclipse.jst.server.preview.adapter_1.1.200.v20120517_1442 [454] was not resolved.
+!SUBENTRY 2 org.eclipse.jst.server.preview.adapter 2 0 2014-01-28 06:38:45.206
+!MESSAGE Missing required bundle org.eclipse.wst.server.ui_[1.0.103,2.0.0).
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.206
+!MESSAGE Bundle org.eclipse.jst.server.tomcat.ui_1.1.300.v20120420_1012 [456] was not resolved.
+!SUBENTRY 2 org.eclipse.jst.server.tomcat.ui 2 0 2014-01-28 06:38:45.206
+!MESSAGE Missing required bundle org.eclipse.wst.server.ui_[1.0.204,2.0.0).
+!SUBENTRY 2 org.eclipse.jst.server.tomcat.ui 2 0 2014-01-28 06:38:45.206
+!MESSAGE Missing required bundle org.eclipse.jst.server.ui_[1.0.103,2.0.0).
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.206
+!MESSAGE Bundle org.eclipse.jst.server.ui_1.1.202.v20110419 [457] was not resolved.
+!SUBENTRY 2 org.eclipse.jst.server.ui 2 0 2014-01-28 06:38:45.206
+!MESSAGE Missing required bundle org.eclipse.jdt.junit_[3.2.0,4.0.0).
+!SUBENTRY 2 org.eclipse.jst.server.ui 2 0 2014-01-28 06:38:45.207
+!MESSAGE Missing required bundle org.eclipse.wst.server.ui_[1.0.103,2.0.0).
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.207
+!MESSAGE Bundle org.eclipse.jst.server.websphere.core_1.0.302.v20080620 [460] was not resolved.
+!SUBENTRY 2 org.eclipse.jst.server.websphere.core 2 0 2014-01-28 06:38:45.207
+!MESSAGE Missing required bundle org.eclipse.jst.server.ui_[1.0.303,2.0.0).
+!SUBENTRY 2 org.eclipse.jst.server.websphere.core 2 0 2014-01-28 06:38:45.207
+!MESSAGE Missing required bundle org.eclipse.jst.server.generic.ui_[1.0.205,2.0.0).
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.207
+!MESSAGE Bundle org.eclipse.jst.servlet.ui_1.1.600.v201202011057 [461] was not resolved.
+!SUBENTRY 2 org.eclipse.jst.servlet.ui 2 0 2014-01-28 06:38:45.207
+!MESSAGE Missing required bundle org.eclipse.jst.j2ee.ui_[1.1.0,1.2.0).
+!SUBENTRY 2 org.eclipse.jst.servlet.ui 2 0 2014-01-28 06:38:45.208
+!MESSAGE Missing required bundle org.eclipse.wst.web.ui_[1.1.0,1.2.0).
+!SUBENTRY 2 org.eclipse.jst.servlet.ui 2 0 2014-01-28 06:38:45.208
+!MESSAGE Missing required bundle org.eclipse.jst.jee.ui_[1.0.100,1.1.0).
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.208
+!MESSAGE Bundle org.eclipse.jst.ws.axis.consumption.ui_1.0.700.v201204181727 [467] was not resolved.
+!SUBENTRY 2 org.eclipse.jst.ws.axis.consumption.ui 2 0 2014-01-28 06:38:45.208
+!MESSAGE Missing required bundle org.eclipse.jst.ws.consumption.ui_[1.1.0,1.2.0).
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.208
+!MESSAGE Bundle org.eclipse.jst.ws.axis.creation.ui_1.0.750.v201204120428 [468] was not resolved.
+!SUBENTRY 2 org.eclipse.jst.ws.axis.creation.ui 2 0 2014-01-28 06:38:45.208
+!MESSAGE Missing required bundle org.eclipse.jst.ws.consumption.ui_[1.1.300,1.2.0).
+!SUBENTRY 2 org.eclipse.jst.ws.axis.creation.ui 2 0 2014-01-28 06:38:45.208
+!MESSAGE Missing required bundle org.eclipse.jst.ws.axis.consumption.ui_[1.0.101,1.1.0).
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.209
+!MESSAGE Bundle org.eclipse.jst.ws.axis2.consumption.core_1.0.105.v201004211805 [471] was not resolved.
+!SUBENTRY 2 org.eclipse.jst.ws.axis2.consumption.core 2 0 2014-01-28 06:38:45.209
+!MESSAGE Missing required bundle org.eclipse.jst.ws.consumption.ui_0.0.0.
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.209
+!MESSAGE Bundle org.eclipse.jst.ws.axis2.consumption.ui_1.0.103.v201004211805 [472] was not resolved.
+!SUBENTRY 2 org.eclipse.jst.ws.axis2.consumption.ui 2 0 2014-01-28 06:38:45.209
+!MESSAGE Missing required bundle org.eclipse.jst.ws.consumption.ui_0.0.0.
+!SUBENTRY 2 org.eclipse.jst.ws.axis2.consumption.ui 2 0 2014-01-28 06:38:45.209
+!MESSAGE Missing required bundle org.eclipse.jst.ws.axis2.consumption.core_0.0.0.
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.209
+!MESSAGE Bundle org.eclipse.jst.ws.axis2.creation.core_1.0.106.v201004211805 [474] was not resolved.
+!SUBENTRY 2 org.eclipse.jst.ws.axis2.creation.core 2 0 2014-01-28 06:38:45.210
+!MESSAGE Missing required bundle org.eclipse.jst.ws.axis2.consumption.core_0.0.0.
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.210
+!MESSAGE Bundle org.eclipse.jst.ws.axis2.creation.ui_1.0.104.v201004211805 [475] was not resolved.
+!SUBENTRY 2 org.eclipse.jst.ws.axis2.creation.ui 2 0 2014-01-28 06:38:45.210
+!MESSAGE Missing required bundle org.eclipse.jst.ws.consumption.ui_0.0.0.
+!SUBENTRY 2 org.eclipse.jst.ws.axis2.creation.ui 2 0 2014-01-28 06:38:45.210
+!MESSAGE Missing required bundle org.eclipse.jst.ws.axis2.creation.core_0.0.0.
+!SUBENTRY 2 org.eclipse.jst.ws.axis2.creation.ui 2 0 2014-01-28 06:38:45.210
+!MESSAGE Missing required bundle org.eclipse.jst.ws.axis2.consumption.ui_0.0.0.
+!SUBENTRY 2 org.eclipse.jst.ws.axis2.creation.ui 2 0 2014-01-28 06:38:45.210
+!MESSAGE Missing required bundle org.eclipse.jst.ws.axis2.consumption.core_0.0.0.
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.210
+!MESSAGE Bundle org.eclipse.jst.ws.consumption.ui_1.1.500.v201204102147 [480] was not resolved.
+!SUBENTRY 2 org.eclipse.jst.ws.consumption.ui 2 0 2014-01-28 06:38:45.211
+!MESSAGE Missing required bundle org.eclipse.wst.server.ui_[1.0.102,2.0.0).
+!SUBENTRY 2 org.eclipse.jst.ws.consumption.ui 2 0 2014-01-28 06:38:45.211
+!MESSAGE Missing required bundle org.eclipse.jst.j2ee.webservice.ui_[1.1.0,1.2.0).
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.211
+!MESSAGE Bundle org.eclipse.jst.ws.creation.ejb.ui_1.0.201.v201004211805 [482] was not resolved.
+!SUBENTRY 2 org.eclipse.jst.ws.creation.ejb.ui 2 0 2014-01-28 06:38:45.211
+!MESSAGE Missing required bundle org.eclipse.jst.ws.consumption.ui_[1.1.0,1.2.0).
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.211
+!MESSAGE Bundle org.eclipse.jst.ws.creation.ui_1.0.700.v201205041550 [483] was not resolved.
+!SUBENTRY 2 org.eclipse.jst.ws.creation.ui 2 0 2014-01-28 06:38:45.211
+!MESSAGE Missing required bundle org.eclipse.jst.ws.consumption.ui_[1.1.0,1.2.0).
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.212
+!MESSAGE Bundle org.eclipse.jst.ws.cxf.consumption.ui_1.0.200.v201201312103 [485] was not resolved.
+!SUBENTRY 2 org.eclipse.jst.ws.cxf.consumption.ui 2 0 2014-01-28 06:38:45.212
+!MESSAGE Missing required bundle org.eclipse.jst.ws.consumption.ui_[1.1.0,1.2.0).
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.212
+!MESSAGE Bundle org.eclipse.jst.ws.cxf.creation.ui_1.0.200.v201204221838 [488] was not resolved.
+!SUBENTRY 2 org.eclipse.jst.ws.cxf.creation.ui 2 0 2014-01-28 06:38:45.212
+!MESSAGE Missing required bundle org.eclipse.jst.ws.consumption.ui_[1.1.0,1.2.0).
+!SUBENTRY 2 org.eclipse.jst.ws.cxf.creation.ui 2 0 2014-01-28 06:38:45.212
+!MESSAGE Missing required bundle org.eclipse.jst.ws.cxf.consumption.ui_[1.0.0,1.1.0).
+!SUBENTRY 2 org.eclipse.jst.ws.cxf.creation.ui 2 0 2014-01-28 06:38:45.212
+!MESSAGE Missing required bundle org.eclipse.jst.ws.creation.ui_[1.0.305,1.1.0).
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.212
+!MESSAGE Bundle org.eclipse.jst.ws.jaxws.dom.integration_1.0.200.v201109042201 [498] was not resolved.
+!SUBENTRY 2 org.eclipse.jst.ws.jaxws.dom.integration 2 0 2014-01-28 06:38:45.213
+!MESSAGE Missing required bundle org.eclipse.jst.jee.ui_0.0.0.
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.213
+!MESSAGE Bundle org.eclipse.mylyn.ide.ant_3.8.2.v20120916-1200 [532] was not resolved.
+!SUBENTRY 2 org.eclipse.mylyn.ide.ant 2 0 2014-01-28 06:38:45.213
+!MESSAGE Missing required bundle org.eclipse.ant.ui_0.0.0.
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.213
+!MESSAGE Bundle org.eclipse.mylyn.java.tasks_3.8.2.v20120916-1200 [534] was not resolved.
+!SUBENTRY 2 org.eclipse.mylyn.java.tasks 2 0 2014-01-28 06:38:45.213
+!MESSAGE Missing required bundle org.eclipse.jdt.junit_0.0.0.
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.213
+!MESSAGE Bundle org.eclipse.mylyn.java.ui_3.8.2.v20120916-1200 [535] was not resolved.
+!SUBENTRY 2 org.eclipse.mylyn.java.ui 2 0 2014-01-28 06:38:45.214
+!MESSAGE Missing required bundle org.eclipse.jdt.junit_0.0.0.
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.214
+!MESSAGE Bundle org.eclipse.pde.api.tools_1.0.400.v20120523-2012 [564] was not resolved.
+!SUBENTRY 2 org.eclipse.pde.api.tools 2 0 2014-01-28 06:38:45.214
+!MESSAGE Missing required bundle org.eclipse.pde.core_[3.3.102,4.0.0).
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.214
+!MESSAGE Bundle org.eclipse.pde.api.tools.ui_1.0.400.v20120523-2012 [565] was not resolved.
+!SUBENTRY 2 org.eclipse.pde.api.tools.ui 2 0 2014-01-28 06:38:45.214
+!MESSAGE Missing required bundle org.eclipse.pde.ui_[3.4.0,4.0.0).
+!SUBENTRY 2 org.eclipse.pde.api.tools.ui 2 0 2014-01-28 06:38:45.214
+!MESSAGE Missing required bundle org.eclipse.pde.api.tools_[1.0.400,4.0.0).
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.214
+!MESSAGE Bundle org.eclipse.pde.build_3.8.1.v20120725-202643 [566] was not resolved.
+!SUBENTRY 2 org.eclipse.pde.build 2 0 2014-01-28 06:38:45.215
+!MESSAGE Missing optionally required bundle org.eclipse.equinox.p2.repository.tools_[2.0.0,3.0.0).
+!SUBENTRY 2 org.eclipse.pde.build 2 0 2014-01-28 06:38:45.215
+!MESSAGE Missing required bundle org.eclipse.equinox.p2.director.app_1.0.200.
+!SUBENTRY 2 org.eclipse.pde.build 2 0 2014-01-28 06:38:45.215
+!MESSAGE Missing required bundle org.eclipse.equinox.p2.publisher.eclipse_1.0.0.
+!SUBENTRY 2 org.eclipse.pde.build 2 0 2014-01-28 06:38:45.215
+!MESSAGE Missing optionally imported package org.eclipse.equinox.internal.p2.updatesite_0.0.0.
+!SUBENTRY 2 org.eclipse.pde.build 2 0 2014-01-28 06:38:45.215
+!MESSAGE Missing imported package org.eclipse.equinox.simpleconfigurator.manipulator_[2.0.0,3.0.0).
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.215
+!MESSAGE Bundle org.eclipse.pde.core_3.8.0.v20120606-170547 [567] was not resolved.
+!SUBENTRY 2 org.eclipse.pde.core 2 0 2014-01-28 06:38:45.216
+!MESSAGE Missing required bundle org.eclipse.pde.build_[3.2.0,4.1.0).
+!SUBENTRY 2 org.eclipse.pde.core 2 0 2014-01-28 06:38:45.216
+!MESSAGE Missing required bundle org.eclipse.equinox.simpleconfigurator.manipulator_[2.0.0,3.0.0).
+!SUBENTRY 2 org.eclipse.pde.core 2 0 2014-01-28 06:38:45.216
+!MESSAGE Missing required bundle org.eclipse.equinox.p2.director_[2.0.0,3.0.0).
+!SUBENTRY 2 org.eclipse.pde.core 2 0 2014-01-28 06:38:45.216
+!MESSAGE Missing required bundle org.eclipse.equinox.p2.repository.tools_[2.0.100,3.0.0).
+!SUBENTRY 2 org.eclipse.pde.core 2 0 2014-01-28 06:38:45.216
+!MESSAGE Missing required bundle org.eclipse.equinox.p2.touchpoint.eclipse_[2.0.0,3.0.0).
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.216
+!MESSAGE Bundle org.eclipse.pde.ds.core_1.0.200.v20120530-1435 [569] was not resolved.
+!SUBENTRY 2 org.eclipse.pde.ds.core 2 0 2014-01-28 06:38:45.217
+!MESSAGE Missing required bundle org.eclipse.pde.core_[3.3.0,4.0.0).
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.217
+!MESSAGE Bundle org.eclipse.pde.ds.ui_1.0.200.v20120530-1435 [570] was not resolved.
+!SUBENTRY 2 org.eclipse.pde.ds.ui 2 0 2014-01-28 06:38:45.217
+!MESSAGE Missing required bundle org.eclipse.pde.ds.core_[1.0.0,2.0.0).
+!SUBENTRY 2 org.eclipse.pde.ds.ui 2 0 2014-01-28 06:38:45.217
+!MESSAGE Missing required bundle org.eclipse.pde.ui_[3.3.0,4.0.0).
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.217
+!MESSAGE Bundle org.eclipse.pde.launching_3.6.100.v20120605-203027 [572] was not resolved.
+!SUBENTRY 2 org.eclipse.pde.launching 2 0 2014-01-28 06:38:45.217
+!MESSAGE Missing required bundle org.eclipse.jdt.junit.core_[3.6.0,4.0.0).
+!SUBENTRY 2 org.eclipse.pde.launching 2 0 2014-01-28 06:38:45.217
+!MESSAGE Missing required bundle org.eclipse.pde.build_[3.2.0,4.0.0).
+!SUBENTRY 2 org.eclipse.pde.launching 2 0 2014-01-28 06:38:45.218
+!MESSAGE Missing required bundle org.eclipse.pde.core_[3.2.0,4.0.0).
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.218
+!MESSAGE Bundle org.eclipse.pde.ua.core_1.0.200.v20120530-1435 [574] was not resolved.
+!SUBENTRY 2 org.eclipse.pde.ua.core 2 0 2014-01-28 06:38:45.218
+!MESSAGE Missing required bundle org.eclipse.pde.core_[3.3.0,4.0.0).
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.218
+!MESSAGE Bundle org.eclipse.pde.ua.ui_1.0.200.v20120523-1453 [575] was not resolved.
+!SUBENTRY 2 org.eclipse.pde.ua.ui 2 0 2014-01-28 06:38:45.218
+!MESSAGE Missing required bundle org.eclipse.pde.ui_[3.4.0,4.0.0).
+!SUBENTRY 2 org.eclipse.pde.ua.ui 2 0 2014-01-28 06:38:45.218
+!MESSAGE Missing required bundle org.eclipse.pde.ua.core_[1.0.0,2.0.0).
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.219
+!MESSAGE Bundle org.eclipse.pde.ui_3.7.1.v20120824-102423 [576] was not resolved.
+!SUBENTRY 2 org.eclipse.pde.ui 2 0 2014-01-28 06:38:45.219
+!MESSAGE Missing required bundle org.eclipse.pde.core_[3.6.0,4.0.0).
+!SUBENTRY 2 org.eclipse.pde.ui 2 0 2014-01-28 06:38:45.219
+!MESSAGE Missing required bundle org.eclipse.pde.build_[3.2.0,4.0.0).
+!SUBENTRY 2 org.eclipse.pde.ui 2 0 2014-01-28 06:38:45.219
+!MESSAGE Missing required bundle org.eclipse.ant.ui_[3.1.0,4.0.0).
+!SUBENTRY 2 org.eclipse.pde.ui 2 0 2014-01-28 06:38:45.219
+!MESSAGE Missing required bundle org.eclipse.jdt.junit_[3.2.0,4.0.0).
+!SUBENTRY 2 org.eclipse.pde.ui 2 0 2014-01-28 06:38:45.219
+!MESSAGE Missing required bundle org.eclipse.equinox.p2.ui_[2.0.0,3.0.0).
+!SUBENTRY 2 org.eclipse.pde.ui 2 0 2014-01-28 06:38:45.219
+!MESSAGE Missing required bundle org.eclipse.equinox.p2.director_[2.0.0,3.0.0).
+!SUBENTRY 2 org.eclipse.pde.ui 2 0 2014-01-28 06:38:45.220
+!MESSAGE Missing required bundle org.eclipse.equinox.p2.operations_[2.0.0,3.0.0).
+!SUBENTRY 2 org.eclipse.pde.ui 2 0 2014-01-28 06:38:45.220
+!MESSAGE Missing required bundle org.eclipse.pde.launching_[3.6.0,4.0.0).
+!SUBENTRY 2 org.eclipse.pde.ui 2 0 2014-01-28 06:38:45.220
+!MESSAGE Missing required bundle org.eclipse.equinox.simpleconfigurator_[1.0.200,2.0.0).
+!SUBENTRY 2 org.eclipse.pde.ui 2 0 2014-01-28 06:38:45.220
+!MESSAGE Missing required bundle org.eclipse.equinox.p2.repository.tools_[2.0.100,3.0.0).
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.220
+!MESSAGE Bundle org.eclipse.pde.ui.templates_3.4.500.v20120523-2012 [577] was not resolved.
+!SUBENTRY 2 org.eclipse.pde.ui.templates 2 0 2014-01-28 06:38:45.220
+!MESSAGE Missing required bundle org.eclipse.pde.ui_[3.3.0,4.0.0).
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.221
+!MESSAGE Bundle org.eclipse.wst.server.discovery_1.0.300.v20120403_0949 [711] was not resolved.
+!SUBENTRY 2 org.eclipse.wst.server.discovery 2 0 2014-01-28 06:38:45.221
+!MESSAGE Missing required bundle org.eclipse.equinox.p2.director_[1.0.100,3.0.0].
+!SUBENTRY 2 org.eclipse.wst.server.discovery 2 0 2014-01-28 06:38:45.221
+!MESSAGE Missing required bundle org.eclipse.equinox.p2.updatesite_[1.0.100,2.0.0).
+!SUBENTRY 2 org.eclipse.wst.server.discovery 2 0 2014-01-28 06:38:45.221
+!MESSAGE Missing required bundle org.eclipse.equinox.p2.ui_[2.0.0,3.0.0).
+!SUBENTRY 2 org.eclipse.wst.server.discovery 2 0 2014-01-28 06:38:45.221
+!MESSAGE Missing required bundle org.eclipse.equinox.p2.operations_[2.0.0,3.0.0).
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.221
+!MESSAGE Bundle org.eclipse.wst.server.http.ui_1.0.300.v20120821_1517 [713] was not resolved.
+!SUBENTRY 2 org.eclipse.wst.server.http.ui 2 0 2014-01-28 06:38:45.222
+!MESSAGE Missing required bundle org.eclipse.wst.server.ui_[1.0.103,2.0.0).
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.222
+!MESSAGE Bundle org.eclipse.wst.server.preview.adapter_1.1.100.v20120517_1638 [715] was not resolved.
+!SUBENTRY 2 org.eclipse.wst.server.preview.adapter 2 0 2014-01-28 06:38:45.222
+!MESSAGE Missing required bundle org.eclipse.wst.server.ui_[1.0.103,2.0.0).
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.222
+!MESSAGE Bundle org.eclipse.wst.server.ui_1.4.1.v20120821_1330 [716] was not resolved.
+!SUBENTRY 2 org.eclipse.wst.server.ui 2 0 2014-01-28 06:38:45.222
+!MESSAGE Missing required bundle org.eclipse.wst.server.discovery_[1.0.0,2.0.0).
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-01-28 06:38:45.222
+!MESSAGE Bundle org.eclipse.wst.web.ui_1.1.600.v201109220400 [728] was not resolved.
+!SUBENTRY 2 org.eclipse.wst.web.ui 2 0 2014-01-28 06:38:45.222
+!MESSAGE Missing required bundle org.eclipse.wst.server.ui_[1.0.102,2.0.0).
